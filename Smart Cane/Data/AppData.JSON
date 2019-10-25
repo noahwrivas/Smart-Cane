@@ -1,0 +1,16 @@
+[
+    {
+        "Location":{
+            "Latitude": 123,
+            "Longitude": 123
+        },
+        "InitialOpening": false,
+        "SilentMode": false,
+        "Ping": false,
+        "VibrationIntensity": 50,
+        "BluetoothData":{
+            "UUID": "UserUUID",
+            "Data": "App Data"
+        }
+    }
+]

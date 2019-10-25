@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19577DAB235BE7CA0038E6F8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19577DAA235BE7CA0038E6F8 /* LoadingView.swift */; };
+		19577DAD235BEAA70038E6F8 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19577DAC235BEAA70038E6F8 /* ErrorView.swift */; };
+		19596B94235E59E5002CFEEC /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19596B93235E59E5002CFEEC /* Bluetooth.swift */; };
+		19596B96235E8F1C002CFEEC /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19596B95235E8F1C002CFEEC /* LoadData.swift */; };
+		19596B99235E92E5002CFEEC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19596B98235E92E5002CFEEC /* CoreBluetooth.framework */; };
+		19596B9B235FC09D002CFEEC /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19596B9A235FC09D002CFEEC /* Time.swift */; };
+		19596B9D2360AA38002CFEEC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19596B9C2360AA38002CFEEC /* CoreLocation.framework */; };
+		19596B9F2360AB0B002CFEEC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19596B9E2360AB0B002CFEEC /* Location.swift */; };
+		19596BA12360AB81002CFEEC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19596BA02360AB81002CFEEC /* CoreData.framework */; };
+		19596BC92360C564002CFEEC /* AppData.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 19596BC82360C564002CFEEC /* AppData.JSON */; };
+		19596BCB2360C6D3002CFEEC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19596BCA2360C6D3002CFEEC /* Data.swift */; };
+		19A0526723593B8A00FDDFE8 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0526623593B8A00FDDFE8 /* UserInfoView.swift */; };
+		19A0526923593BB200FDDFE8 /* LegalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0526823593BB200FDDFE8 /* LegalView.swift */; };
+		19A0526D235961C300FDDFE8 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0526C235961C300FDDFE8 /* BluetoothView.swift */; };
+		19A052712359671600FDDFE8 /* VibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A052702359671500FDDFE8 /* VibrationView.swift */; };
+		19A0527323596DDB00FDDFE8 /* InitalConcentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A0527223596DDB00FDDFE8 /* InitalConcentView.swift */; };
+		19A05275235A83C700FDDFE8 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A05274235A83C600FDDFE8 /* LocationView.swift */; };
+		19A05277235A865B00FDDFE8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A05276235A865A00FDDFE8 /* MapView.swift */; };
+		19A69DD52356B2D9007D30E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A69DD42356B2D9007D30E6 /* AppDelegate.swift */; };
+		19A69DD72356B2D9007D30E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A69DD62356B2D9007D30E6 /* SceneDelegate.swift */; };
+		19A69DD92356B2D9007D30E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A69DD82356B2D9007D30E6 /* ContentView.swift */; };
+		19A69DDB2356B2DF007D30E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A69DDA2356B2DF007D30E6 /* Assets.xcassets */; };
+		19A69DDE2356B2DF007D30E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A69DDD2356B2DF007D30E6 /* Preview Assets.xcassets */; };
+		19A69DE12356B2DF007D30E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A69DDF2356B2DF007D30E6 /* LaunchScreen.storyboard */; };
+		19A69DEA2356B464007D30E6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A69DE92356B464007D30E6 /* SettingsView.swift */; };
+		19ACC11D2357BD86006C865E /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ACC11C2357BD86006C865E /* TutorialView.swift */; };
+		19ACC1212357C0BF006C865E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ACC1202357C0BF006C865E /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19577DAA235BE7CA0038E6F8 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		19577DAC235BEAA70038E6F8 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		19596B93235E59E5002CFEEC /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
+		19596B95235E8F1C002CFEEC /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		19596B98235E92E5002CFEEC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		19596B9A235FC09D002CFEEC /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		19596B9C2360AA38002CFEEC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		19596B9E2360AB0B002CFEEC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		19596BA02360AB81002CFEEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		19596BC82360C564002CFEEC /* AppData.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppData.JSON; sourceTree = "<group>"; };
+		19596BCA2360C6D3002CFEEC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		19A0526623593B8A00FDDFE8 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		19A0526823593BB200FDDFE8 /* LegalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalView.swift; sourceTree = "<group>"; };
+		19A0526C235961C300FDDFE8 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		19A052702359671500FDDFE8 /* VibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationView.swift; sourceTree = "<group>"; };
+		19A0527223596DDB00FDDFE8 /* InitalConcentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitalConcentView.swift; sourceTree = "<group>"; };
+		19A05274235A83C600FDDFE8 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		19A05276235A865A00FDDFE8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		19A69DD12356B2D9007D30E6 /* Smart Cane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Cane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A69DD42356B2D9007D30E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19A69DD62356B2D9007D30E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19A69DD82356B2D9007D30E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19A69DDA2356B2DF007D30E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19A69DDD2356B2DF007D30E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19A69DE02356B2DF007D30E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19A69DE22356B2DF007D30E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A69DE92356B464007D30E6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		19ACC11C2357BD86006C865E /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		19ACC1202357C0BF006C865E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A69DCE2356B2D9007D30E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19596B9D2360AA38002CFEEC /* CoreLocation.framework in Frameworks */,
+				19596BA12360AB81002CFEEC /* CoreData.framework in Frameworks */,
+				19596B99235E92E5002CFEEC /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19577DAE235CF3830038E6F8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				19596BC82360C564002CFEEC /* AppData.JSON */,
+				19596B93235E59E5002CFEEC /* Bluetooth.swift */,
+				19596B95235E8F1C002CFEEC /* LoadData.swift */,
+				19596B9A235FC09D002CFEEC /* Time.swift */,
+				19596B9E2360AB0B002CFEEC /* Location.swift */,
+				19596BCA2360C6D3002CFEEC /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		19596B97235E92E5002CFEEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19596BA02360AB81002CFEEC /* CoreData.framework */,
+				19596B9C2360AA38002CFEEC /* CoreLocation.framework */,
+				19596B98235E92E5002CFEEC /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19A69DC82356B2D9007D30E6 = {
+			isa = PBXGroup;
+			children = (
+				19A69DD32356B2D9007D30E6 /* Smart Cane */,
+				19A69DD22356B2D9007D30E6 /* Products */,
+				19596B97235E92E5002CFEEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19A69DD22356B2D9007D30E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A69DD12356B2D9007D30E6 /* Smart Cane.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A69DD32356B2D9007D30E6 /* Smart Cane */ = {
+			isa = PBXGroup;
+			children = (
+				19577DAE235CF3830038E6F8 /* Data */,
+				19A69DE82356B3CC007D30E6 /* Views */,
+				19A69DD42356B2D9007D30E6 /* AppDelegate.swift */,
+				19A69DD62356B2D9007D30E6 /* SceneDelegate.swift */,
+				19A69DDA2356B2DF007D30E6 /* Assets.xcassets */,
+				19A69DDF2356B2DF007D30E6 /* LaunchScreen.storyboard */,
+				19A69DE22356B2DF007D30E6 /* Info.plist */,
+				19A69DDC2356B2DF007D30E6 /* Preview Content */,
+			);
+			path = "Smart Cane";
+			sourceTree = "<group>";
+		};
+		19A69DDC2356B2DF007D30E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19A69DDD2356B2DF007D30E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19A69DE82356B3CC007D30E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19ACC1202357C0BF006C865E /* HomeView.swift */,
+				19A05274235A83C600FDDFE8 /* LocationView.swift */,
+				19A69DE92356B464007D30E6 /* SettingsView.swift */,
+				19A0526623593B8A00FDDFE8 /* UserInfoView.swift */,
+				19ACC11C2357BD86006C865E /* TutorialView.swift */,
+				19A0526823593BB200FDDFE8 /* LegalView.swift */,
+				19A0526C235961C300FDDFE8 /* BluetoothView.swift */,
+				19A052702359671500FDDFE8 /* VibrationView.swift */,
+				19A0527223596DDB00FDDFE8 /* InitalConcentView.swift */,
+				19A05276235A865A00FDDFE8 /* MapView.swift */,
+				19A69DD82356B2D9007D30E6 /* ContentView.swift */,
+				19577DAA235BE7CA0038E6F8 /* LoadingView.swift */,
+				19577DAC235BEAA70038E6F8 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A69DD02356B2D9007D30E6 /* Smart Cane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A69DE52356B2DF007D30E6 /* Build configuration list for PBXNativeTarget "Smart Cane" */;
+			buildPhases = (
+				19A69DCD2356B2D9007D30E6 /* Sources */,
+				19A69DCE2356B2D9007D30E6 /* Frameworks */,
+				19A69DCF2356B2D9007D30E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Cane";
+			productName = "Smart Cane";
+			productReference = 19A69DD12356B2D9007D30E6 /* Smart Cane.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19A69DC92356B2D9007D30E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Noah Rivas";
+				TargetAttributes = {
+					19A69DD02356B2D9007D30E6 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 19A69DCC2356B2D9007D30E6 /* Build configuration list for PBXProject "Smart Cane" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19A69DC82356B2D9007D30E6;
+			productRefGroup = 19A69DD22356B2D9007D30E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A69DD02356B2D9007D30E6 /* Smart Cane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A69DCF2356B2D9007D30E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A69DE12356B2DF007D30E6 /* LaunchScreen.storyboard in Resources */,
+				19A69DDE2356B2DF007D30E6 /* Preview Assets.xcassets in Resources */,
+				19A69DDB2356B2DF007D30E6 /* Assets.xcassets in Resources */,
+				19596BC92360C564002CFEEC /* AppData.JSON in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A69DCD2356B2D9007D30E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A05275235A83C700FDDFE8 /* LocationView.swift in Sources */,
+				19A0527323596DDB00FDDFE8 /* InitalConcentView.swift in Sources */,
+				19ACC1212357C0BF006C865E /* HomeView.swift in Sources */,
+				19A0526D235961C300FDDFE8 /* BluetoothView.swift in Sources */,
+				19596B94235E59E5002CFEEC /* Bluetooth.swift in Sources */,
+				19ACC11D2357BD86006C865E /* TutorialView.swift in Sources */,
+				19596B9B235FC09D002CFEEC /* Time.swift in Sources */,
+				19596BCB2360C6D3002CFEEC /* Data.swift in Sources */,
+				19577DAB235BE7CA0038E6F8 /* LoadingView.swift in Sources */,
+				19A69DD52356B2D9007D30E6 /* AppDelegate.swift in Sources */,
+				19A0526723593B8A00FDDFE8 /* UserInfoView.swift in Sources */,
+				19A05277235A865B00FDDFE8 /* MapView.swift in Sources */,
+				19A052712359671600FDDFE8 /* VibrationView.swift in Sources */,
+				19577DAD235BEAA70038E6F8 /* ErrorView.swift in Sources */,
+				19A69DEA2356B464007D30E6 /* SettingsView.swift in Sources */,
+				19596B9F2360AB0B002CFEEC /* Location.swift in Sources */,
+				19596B96235E8F1C002CFEEC /* LoadData.swift in Sources */,
+				19A69DD72356B2D9007D30E6 /* SceneDelegate.swift in Sources */,
+				19A0526923593BB200FDDFE8 /* LegalView.swift in Sources */,
+				19A69DD92356B2D9007D30E6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19A69DDF2356B2DF007D30E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A69DE02356B2DF007D30E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19A69DE32356B2DF007D30E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19A69DE42356B2DF007D30E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19A69DE62356B2DF007D30E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Cane/Preview Content\"";
+				DEVELOPMENT_TEAM = QT8Q2CKC9N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Smart Cane/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WAR.Smart-Cane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19A69DE72356B2DF007D30E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Cane/Preview Content\"";
+				DEVELOPMENT_TEAM = QT8Q2CKC9N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Smart Cane/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WAR.Smart-Cane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A69DCC2356B2D9007D30E6 /* Build configuration list for PBXProject "Smart Cane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A69DE32356B2DF007D30E6 /* Debug */,
+				19A69DE42356B2DF007D30E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A69DE52356B2DF007D30E6 /* Build configuration list for PBXNativeTarget "Smart Cane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A69DE62356B2DF007D30E6 /* Debug */,
+				19A69DE72356B2DF007D30E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19A69DC92356B2D9007D30E6 /* Project object */;
+}
